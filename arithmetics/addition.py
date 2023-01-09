@@ -1,2 +1,3 @@
 def add(x, y):
-    return lambda x, y: x + y
+    f = lambda a, b: a + b
+    return f(x, y)
